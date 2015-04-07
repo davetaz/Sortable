@@ -19,7 +19,7 @@
 	<div class="container" style="height: 520px">
 		<div data-force="30" class="layer block" style="left: 14.5%; top: 0; width: 37%">
 			<div class="layer title">List A</div>
-			<ul id="importance" class="block__list block__list_words">
+			<ul id="foo" class="block__list block__list_words">
 				<li>Math and statistical knowledge</li>
 				<li>Scientific method</li>
 				<li>Advanced computing</li>
@@ -197,8 +197,8 @@ Sortable.create(list); // That's all.
 
 
 // Grouping
-var importance = document.getElementById("importance");
-Sortable.create(importance, { group: "omega" });
+var foo = document.getElementById("foo");
+Sortable.create(foo, { group: "omega" });
 
 // Or
 var container = document.getElementById("multi");
