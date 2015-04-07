@@ -3,12 +3,9 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta property="og:image" content="/st/og-image.png"/>
 
-	<title>Sortable. No jQuery.</title>
+	<title>Importance of data science areas</title>
 
-	<meta name="keywords" content="sortable, reorder, list, javascript, html5, drag and drop, dnd, animation, groups, angular, ng-sortable, react, mixin, effects, rubaxa"/>
-	<meta name="description" content="Sortable - is a minimalist JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery. Supports Meteor, AngularJS, React and any CSS library, e.g. Bootstrap."/>
 	<meta name="viewport" content="width=device-width, initial-scale=0.5"/>
 
 	<link href="//rubaxa.github.io/Ply/ply.css" rel="stylesheet" type="text/css"/>
@@ -18,39 +15,19 @@
 </head>
 <body>
 
-	<a href="https://github.com/RubaXa/Sortable"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 10000;" src="//s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
-
-	<div class="container">
-		<div style="padding: 80px 150px 0; height: 160px;">
-			<a class="logo" href="https://github.com/RubaXa/Sortable"><img src="st/logo.png"/></a>
-			<h1 data-force="40" data-force-y="2.5">The JavaScript library for modern browsers and touch devices. No&nbsp;jQuery.</h1>
-		</div>
-	</div>
-
-
 	<!-- Connected lists -->
 	<div class="container" style="height: 520px">
 		<div data-force="30" class="layer block" style="left: 14.5%; top: 0; width: 37%">
 			<div class="layer title">List A</div>
-			<ul id="foo" class="block__list block__list_words">
-				<li>бегемот</li>
-				<li>корм</li>
-				<li>антон</li>
-				<li>сало</li>
-				<li>железосталь</li>
-				<li>валик</li>
-				<li>кровать</li>
-				<li>краб</li>
-			</ul>
-		</div>
-
-		<div data-force="18" class="layer block" style="left: 58%; top: 143px; width: 40%;">
-			<div class="layer title">List B</div>
-			<ul id="bar" class="block__list block__list_tags">
-				<li>казнить</li>
-				<li>,</li>
-				<li>нельзя</li>
-				<li>помиловать</li>
+			<ul id="importance" class="block__list block__list_words">
+				<li>Math and statistical knowledge</li>
+				<li>Scientific method</li>
+				<li>Advanced computing</li>
+				<li>Machine learning</li>
+				<li>Domain expertise</li>
+				<li>Scientific method</li>
+				<li>Data skills</li>
+				<li>Open culture</li>
 			</ul>
 		</div>
 	</div>
@@ -63,29 +40,28 @@
 			<div><div data-force="5" class="layer title title_xl">Multi</div></div>
 
 			<div class="layer tile" data-force="30">
-				<div class="tile__name">Group A</div>
+				<div class="tile__name">Not essential</div>
 				<div class="tile__list">
-					<img src="st/face-01.jpg"/><!--
-					--><img src="st/face-02.jpg"/><!--
-					--><img src="st/face-03.jpg"/><!--
-					--><img src="st/face-04.jpg"/>
+					<div id="item1">Math and statistics</div>
+					<div id="item2">Machine learning</div>
+					<div id="item3">Domain expertise</div>
 				</div>
 			</div>
 
 			<div class="layer tile" data-force="25">
-				<div class="tile__name">Group B</div>
+				<div class="tile__name">Nice to have</div>
 				<div class="tile__list">
-					<img src="st/face-05.jpg"/><!--
-					--><img src="st/face-06.jpg"/><!--
-					--><img src="st/face-07.jpg"/>
+					<div id="item4">Data skills</div>
+					<div id="item5">Advanced computing</div>
+					<div id="item6">Data visulisation</div>
 				</div>
 			</div>
 
 			<div class="layer tile" data-force="20">
-				<div class="tile__name">Group C</div>
+				<div class="tile__name">Essential</div>
 				<div class="tile__list">
-					<img src="st/face-08.jpg"/><!--
-					--><img src="st/face-09.jpg"/>
+					<div id="item7">Scientific method</div>
+					<div id="item8">Open culture</div>
 				</div>
 			</div>
 
