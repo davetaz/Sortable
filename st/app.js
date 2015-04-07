@@ -67,18 +67,6 @@
 		onEnd: function(evt){ console.log('onEnd.foo:', [evt.item, evt.from]);}
 	});
 
-
-	Sortable.create(byId('bar'), {
-		group: "words",
-		animation: 150,
-		onAdd: function (evt){ console.log('onAdd.bar:', evt.item); },
-		onUpdate: function (evt){ console.log('onUpdate.bar:', evt.item); },
-		onRemove: function (evt){ console.log('onRemove.bar:', evt.item); },
-		onStart:function(evt){ console.log('onStart.foo:', evt.item);},
-		onEnd: function(evt){ console.log('onEnd.foo:', evt.item);}
-	});
-
-
 	// Multi groups
 	Sortable.create(byId('multi'), {
 		animation: 150,
